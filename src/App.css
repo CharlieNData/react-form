@@ -1,0 +1,39 @@
+body {
+    background-color:  rgb(207, 207, 207);
+}
+
+.form-container {
+    background-color: white;
+    width: 300px;
+    height: 225px;
+    padding: 30px 20px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.register-form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-field {
+    height: 40px;
+    background-color:  rgb(236, 236, 236);
+    border: 0px;
+    padding: 0 10px;
+}
+
+::placeholder, .button {
+    color: grey;
+}
+
+.button {
+    background-color: rgb(36, 186, 34);
+    color: white;
+}
