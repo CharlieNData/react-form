@@ -5,7 +5,6 @@ body {
 .form-container {
     background-color: white;
     width: 300px;
-    height: 225px;
     padding: 30px 20px;
     margin: 0;
     position: absolute;
@@ -19,17 +18,20 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+}
+
+.register-form > * {
+    padding: 0 10px;
+    margin-bottom: 15px;
+    height: 40px;
 }
 
 .form-field {
-    height: 40px;
     background-color:  rgb(236, 236, 236);
     border: 0px;
-    padding: 0 10px;
 }
 
-::placeholder, .button {
+::placeholder {
     color: grey;
 }
 
@@ -37,3 +39,12 @@ body {
     background-color: rgb(36, 186, 34);
     color: white;
 }
+
+.success-message {
+    background-color: rgb(59, 59, 213);
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
